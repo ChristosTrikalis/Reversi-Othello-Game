@@ -29,7 +29,6 @@ class MiniMaxPlayer
                 return s.getBoard();
             }
          }
-
         //If the X plays then it wants to MAXimize the heuristics value
         String player = Main.minimax;
         if (playsNow)

@@ -87,7 +87,6 @@ public class Main
 
     private static int inputToColumn(String s)
     {
-
        return ((s.substring(1,2).toUpperCase().charAt(0))-65)-1;
     }
     private static int inputToRow(String s)
